@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.btn {
+    background-color:darkcyan;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+ 
+
+}
+
+.btn:hover {
+    background-color: rgb(98, 209, 0);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+
+    color: rgb(114, 165, 42);
+    text-shadow: 1px 2px 10px rgb(255, 0, 0);
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
